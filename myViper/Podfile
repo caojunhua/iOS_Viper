@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git' #官方默认源
+target 'myViper' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+pod 'Moya'
+  # Pods for myViper
+
+  target 'myViperTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'myViperUITests' do
+    # Pods for testing
+  end
+
+end
