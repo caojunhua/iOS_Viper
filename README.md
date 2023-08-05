@@ -30,3 +30,32 @@ iOS的Viper架构，作为一个从业多年的iOS开发者，我个人认为应
 ## 3.2 延展分析
 1. 对于entity，我们其实可以理解为数据处理层，在实际的较为复杂的业务场景中，可以参照如下模式，对entity进行进一步细分
  ![](assets/16912475549488.jpg)
+# 四、代码解析
+1. Swift提倡的是面向协议编程，我们把这5个模块都定义成协议
+    ![](assets/16912486870927.jpg)
+2. 对viewProtocols的分析
+    
+    1. 可以看到，viewProtocols是为view服务的，列举了4个常见的方法，刷新视图，展示loading，展示错误，隐藏loading
+3. 对presenterProtocols的分析
+    ![](assets/16912493123427.jpg)
+    1. presenter 需要持有view，实现的时候要注意使用弱引用
+    2. viewDidLoad方法，是在view需要主动调用的
+    3. presenter 需要持有router，这里因为是单方面引用，所以需要用强引用
+    4. presenter 需要持有interactor，因为是上级，所以强引用
+    5. didInteractorRetrieveData方法，顾名思义，就是interactor给presenter的回调方法
+4. 对routerProtocls
+    ![](assets/16912493338629.jpg)
+    1. createTabBarVC方法，就是一个静态方法，在appdelegate启动后，创建根视图所用的
+    2. addChildViewController就是给UINavigationController提供一个初始化vc的方法，这里的vc，就是我们架构中的view层
+    3. pushToNextVC方法不用过多解释了，就跳转带参数方法
+5. 对interactorProtocols的分析
+    ![](assets/16912491673646.jpg)
+    1. interactor需要弱引用上级presenter
+    2. 提供一个给presenter主动调用的方法，interactorRetrieveData
+    3. interactor强持有下级entity
+    4. didEntityReceiveData就是entity的数据回调方法
+6. 对EntityProtocols的分析
+    ![](assets/16912493492599.jpg)
+     1. entity弱引用上级interactor
+     2. retrieveData是给interactor主动调用的方法
+     3. didReceiveData是回调方法
