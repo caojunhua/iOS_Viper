@@ -25,9 +25,15 @@ class JHPresenters: JHPresenterProtocols {
     }
     
     func didInteractorRetrieveData(data: Any) {
+        view?.hideLoading()
         result = data
         printTest("【调用顺序】step9: preseter执行数据回调")
         view?.reloadView()
+    }
+    
+    func didInteractorReceiveError(error: MyError) {
+        view?.hideLoading()
+        view?.showError()
     }
     
 }

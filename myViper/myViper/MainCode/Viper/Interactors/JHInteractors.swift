@@ -9,6 +9,7 @@ import Foundation
 
 class JHInteractors: JHInteractorProtocols {
     
+    
     weak var presenter: JHPresenterProtocols?
     
     var entity: JHEntityProtocols?
@@ -23,6 +24,9 @@ class JHInteractors: JHInteractorProtocols {
         presenter?.didInteractorRetrieveData(data: data)
     }
     
+    func didEntityReceiveError(error: MyError) {
+        presenter?.didInteractorReceiveError(error: error)
+    }
     
     
     

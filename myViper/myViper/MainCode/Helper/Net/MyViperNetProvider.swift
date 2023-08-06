@@ -1,5 +1,5 @@
 //
-//  myViperNetProvider.swift
+//  MyViperNetProvider.swift
 //  myViper
 //
 //  Created by cao hua on 2023/7/30.
@@ -8,7 +8,7 @@
 import Foundation
 import Moya
 
-let myViperNetProvider = MoyaProvider<MyViperNet>()
+let MyViperNetProvider = MoyaProvider<MyViperNet>()
 
 public enum MyViperNet {
   case channel

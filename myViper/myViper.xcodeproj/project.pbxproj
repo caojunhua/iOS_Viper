@@ -47,12 +47,12 @@
 		F8D0FE412A7651200093B7B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D0FE402A7651200093B7B8 /* Main.storyboard */; };
 		F8D0FE422A7651200093B7B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D0FE402A7651200093B7B8 /* Main.storyboard */; };
 		F8D0FE432A7651200093B7B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D0FE402A7651200093B7B8 /* Main.storyboard */; };
-		F8D0FE4B2A76A8690093B7B8 /* myViperNetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE4A2A76A8690093B7B8 /* myViperNetProvider.swift */; };
-		F8D0FE4C2A76A8690093B7B8 /* myViperNetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE4A2A76A8690093B7B8 /* myViperNetProvider.swift */; };
-		F8D0FE4D2A76A8690093B7B8 /* myViperNetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE4A2A76A8690093B7B8 /* myViperNetProvider.swift */; };
-		F8D0FE502A7B69C90093B7B8 /* JHMeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE4F2A7B69C90093B7B8 /* JHMeTableView.swift */; };
-		F8D0FE512A7B69C90093B7B8 /* JHMeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE4F2A7B69C90093B7B8 /* JHMeTableView.swift */; };
-		F8D0FE522A7B69C90093B7B8 /* JHMeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE4F2A7B69C90093B7B8 /* JHMeTableView.swift */; };
+		F8D0FE4B2A76A8690093B7B8 /* MyViperNetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE4A2A76A8690093B7B8 /* MyViperNetProvider.swift */; };
+		F8D0FE4C2A76A8690093B7B8 /* MyViperNetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE4A2A76A8690093B7B8 /* MyViperNetProvider.swift */; };
+		F8D0FE4D2A76A8690093B7B8 /* MyViperNetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE4A2A76A8690093B7B8 /* MyViperNetProvider.swift */; };
+		F8D0FE502A7B69C90093B7B8 /* JHHomeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE4F2A7B69C90093B7B8 /* JHHomeTableView.swift */; };
+		F8D0FE512A7B69C90093B7B8 /* JHHomeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE4F2A7B69C90093B7B8 /* JHHomeTableView.swift */; };
+		F8D0FE522A7B69C90093B7B8 /* JHHomeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE4F2A7B69C90093B7B8 /* JHHomeTableView.swift */; };
 		F8D0FE582A7DDFE00093B7B8 /* JHEntityProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE572A7DDFE00093B7B8 /* JHEntityProtocols.swift */; };
 		F8D0FE592A7DDFE00093B7B8 /* JHEntityProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE572A7DDFE00093B7B8 /* JHEntityProtocols.swift */; };
 		F8D0FE5A2A7DDFE00093B7B8 /* JHEntityProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE572A7DDFE00093B7B8 /* JHEntityProtocols.swift */; };
@@ -77,6 +77,33 @@
 		F8D0FE742A7E4A240093B7B8 /* PrintTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE732A7E4A240093B7B8 /* PrintTool.swift */; };
 		F8D0FE752A7E4A240093B7B8 /* PrintTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE732A7E4A240093B7B8 /* PrintTool.swift */; };
 		F8D0FE762A7E4A240093B7B8 /* PrintTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE732A7E4A240093B7B8 /* PrintTool.swift */; };
+		F8D0FE782A7F13700093B7B8 /* JHChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE772A7F13700093B7B8 /* JHChannelModel.swift */; };
+		F8D0FE792A7F13700093B7B8 /* JHChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE772A7F13700093B7B8 /* JHChannelModel.swift */; };
+		F8D0FE7A2A7F13700093B7B8 /* JHChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE772A7F13700093B7B8 /* JHChannelModel.swift */; };
+		F8D0FE7C2A7F207A0093B7B8 /* MyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE7B2A7F207A0093B7B8 /* MyError.swift */; };
+		F8D0FE7D2A7F207A0093B7B8 /* MyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE7B2A7F207A0093B7B8 /* MyError.swift */; };
+		F8D0FE7E2A7F207A0093B7B8 /* MyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE7B2A7F207A0093B7B8 /* MyError.swift */; };
+		F8D0FE812A7FD52F0093B7B8 /* JHHomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE802A7FD52F0093B7B8 /* JHHomeDetailViewController.swift */; };
+		F8D0FE822A7FD52F0093B7B8 /* JHHomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE802A7FD52F0093B7B8 /* JHHomeDetailViewController.swift */; };
+		F8D0FE832A7FD52F0093B7B8 /* JHHomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE802A7FD52F0093B7B8 /* JHHomeDetailViewController.swift */; };
+		F8D0FE852A7FD5540093B7B8 /* JHHomeDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE842A7FD5540093B7B8 /* JHHomeDetailPresenter.swift */; };
+		F8D0FE862A7FD5540093B7B8 /* JHHomeDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE842A7FD5540093B7B8 /* JHHomeDetailPresenter.swift */; };
+		F8D0FE872A7FD5540093B7B8 /* JHHomeDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE842A7FD5540093B7B8 /* JHHomeDetailPresenter.swift */; };
+		F8D0FE892A7FD5640093B7B8 /* JHHomeDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE882A7FD5640093B7B8 /* JHHomeDetailInteractor.swift */; };
+		F8D0FE8A2A7FD5640093B7B8 /* JHHomeDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE882A7FD5640093B7B8 /* JHHomeDetailInteractor.swift */; };
+		F8D0FE8B2A7FD5640093B7B8 /* JHHomeDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE882A7FD5640093B7B8 /* JHHomeDetailInteractor.swift */; };
+		F8D0FE8D2A7FD5760093B7B8 /* JHHomeDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE8C2A7FD5760093B7B8 /* JHHomeDetailEntity.swift */; };
+		F8D0FE8E2A7FD5760093B7B8 /* JHHomeDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE8C2A7FD5760093B7B8 /* JHHomeDetailEntity.swift */; };
+		F8D0FE8F2A7FD5760093B7B8 /* JHHomeDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE8C2A7FD5760093B7B8 /* JHHomeDetailEntity.swift */; };
+		F8D0FE912A7FD58F0093B7B8 /* JHHomeDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE902A7FD58F0093B7B8 /* JHHomeDetailRouter.swift */; };
+		F8D0FE922A7FD58F0093B7B8 /* JHHomeDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE902A7FD58F0093B7B8 /* JHHomeDetailRouter.swift */; };
+		F8D0FE932A7FD58F0093B7B8 /* JHHomeDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE902A7FD58F0093B7B8 /* JHHomeDetailRouter.swift */; };
+		F8D0FE962A7FD9050093B7B8 /* HomeDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE952A7FD9050093B7B8 /* HomeDetailProtocols.swift */; };
+		F8D0FE972A7FD9050093B7B8 /* HomeDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE952A7FD9050093B7B8 /* HomeDetailProtocols.swift */; };
+		F8D0FE982A7FD9050093B7B8 /* HomeDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE952A7FD9050093B7B8 /* HomeDetailProtocols.swift */; };
+		F8D0FEA02A7FDD0A0093B7B8 /* JHHomeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE9F2A7FDD0A0093B7B8 /* JHHomeDetailView.swift */; };
+		F8D0FEA12A7FDD0A0093B7B8 /* JHHomeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE9F2A7FDD0A0093B7B8 /* JHHomeDetailView.swift */; };
+		F8D0FEA22A7FDD0A0093B7B8 /* JHHomeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D0FE9F2A7FDD0A0093B7B8 /* JHHomeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,8 +154,8 @@
 		F8D0FE382A7647CF0093B7B8 /* JHFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHFindViewController.swift; sourceTree = "<group>"; };
 		F8D0FE3C2A7647DE0093B7B8 /* JHMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHMeViewController.swift; sourceTree = "<group>"; };
 		F8D0FE402A7651200093B7B8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		F8D0FE4A2A76A8690093B7B8 /* myViperNetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myViperNetProvider.swift; sourceTree = "<group>"; };
-		F8D0FE4F2A7B69C90093B7B8 /* JHMeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHMeTableView.swift; sourceTree = "<group>"; };
+		F8D0FE4A2A76A8690093B7B8 /* MyViperNetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViperNetProvider.swift; sourceTree = "<group>"; };
+		F8D0FE4F2A7B69C90093B7B8 /* JHHomeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHHomeTableView.swift; sourceTree = "<group>"; };
 		F8D0FE572A7DDFE00093B7B8 /* JHEntityProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHEntityProtocols.swift; sourceTree = "<group>"; };
 		F8D0FE5B2A7DE0B00093B7B8 /* JHInteractorProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHInteractorProtocols.swift; sourceTree = "<group>"; };
 		F8D0FE5F2A7DE1000093B7B8 /* JHPresenterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHPresenterProtocols.swift; sourceTree = "<group>"; };
@@ -137,6 +164,15 @@
 		F8D0FE6B2A7DED4C0093B7B8 /* JHInteractors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHInteractors.swift; sourceTree = "<group>"; };
 		F8D0FE6F2A7DEE1B0093B7B8 /* JHEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHEntity.swift; sourceTree = "<group>"; };
 		F8D0FE732A7E4A240093B7B8 /* PrintTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintTool.swift; sourceTree = "<group>"; };
+		F8D0FE772A7F13700093B7B8 /* JHChannelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JHChannelModel.swift; path = ../../../../../../../../../../.Trash/myViper/myViper/MainCode/Viper/Entities/JHChannelModel.swift; sourceTree = "<group>"; };
+		F8D0FE7B2A7F207A0093B7B8 /* MyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyError.swift; sourceTree = "<group>"; };
+		F8D0FE802A7FD52F0093B7B8 /* JHHomeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHHomeDetailViewController.swift; sourceTree = "<group>"; };
+		F8D0FE842A7FD5540093B7B8 /* JHHomeDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHHomeDetailPresenter.swift; sourceTree = "<group>"; };
+		F8D0FE882A7FD5640093B7B8 /* JHHomeDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHHomeDetailInteractor.swift; sourceTree = "<group>"; };
+		F8D0FE8C2A7FD5760093B7B8 /* JHHomeDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHHomeDetailEntity.swift; sourceTree = "<group>"; };
+		F8D0FE902A7FD58F0093B7B8 /* JHHomeDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHHomeDetailRouter.swift; sourceTree = "<group>"; };
+		F8D0FE952A7FD9050093B7B8 /* HomeDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailProtocols.swift; sourceTree = "<group>"; };
+		F8D0FE9F2A7FDD0A0093B7B8 /* JHHomeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHHomeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +270,7 @@
 			children = (
 				F8D0FE472A7651DC0093B7B8 /* Helper */,
 				F8D0FE462A7651BA0093B7B8 /* Viper */,
+				F8D0FE7F2A7FD5060093B7B8 /* HomeDetail */,
 			);
 			path = MainCode;
 			sourceTree = "<group>";
@@ -269,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				F8D0FE6F2A7DEE1B0093B7B8 /* JHEntity.swift */,
+				F8D0FE772A7F13700093B7B8 /* JHChannelModel.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -316,6 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				F8D0FE342A7647BE0093B7B8 /* JHHomeViewController.swift */,
+				F8D0FE4E2A7B69A60093B7B8 /* views */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -331,7 +370,6 @@
 		F8D0FE2F2A76478D0093B7B8 /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				F8D0FE4E2A7B69A60093B7B8 /* views */,
 				F8D0FE3C2A7647DE0093B7B8 /* JHMeViewController.swift */,
 			);
 			path = Me;
@@ -383,6 +421,7 @@
 			isa = PBXGroup;
 			children = (
 				F8D0FE732A7E4A240093B7B8 /* PrintTool.swift */,
+				F8D0FE7B2A7F207A0093B7B8 /* MyError.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -390,7 +429,7 @@
 		F8D0FE492A76525A0093B7B8 /* Net */ = {
 			isa = PBXGroup;
 			children = (
-				F8D0FE4A2A76A8690093B7B8 /* myViperNetProvider.swift */,
+				F8D0FE4A2A76A8690093B7B8 /* MyViperNetProvider.swift */,
 			);
 			path = Net;
 			sourceTree = "<group>";
@@ -398,9 +437,39 @@
 		F8D0FE4E2A7B69A60093B7B8 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				F8D0FE4F2A7B69C90093B7B8 /* JHMeTableView.swift */,
+				F8D0FE4F2A7B69C90093B7B8 /* JHHomeTableView.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		F8D0FE7F2A7FD5060093B7B8 /* HomeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F8D0FE9E2A7FDCEC0093B7B8 /* Views */,
+				F8D0FE942A7FD8E20093B7B8 /* Protocols */,
+				F8D0FE802A7FD52F0093B7B8 /* JHHomeDetailViewController.swift */,
+				F8D0FE842A7FD5540093B7B8 /* JHHomeDetailPresenter.swift */,
+				F8D0FE882A7FD5640093B7B8 /* JHHomeDetailInteractor.swift */,
+				F8D0FE8C2A7FD5760093B7B8 /* JHHomeDetailEntity.swift */,
+				F8D0FE902A7FD58F0093B7B8 /* JHHomeDetailRouter.swift */,
+			);
+			path = HomeDetail;
+			sourceTree = "<group>";
+		};
+		F8D0FE942A7FD8E20093B7B8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F8D0FE952A7FD9050093B7B8 /* HomeDetailProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F8D0FE9E2A7FDCEC0093B7B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8D0FE9F2A7FDD0A0093B7B8 /* JHHomeDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		F8ED00991675F86A6BE4CF68 /* Frameworks */ = {
@@ -656,21 +725,30 @@
 			files = (
 				F8D0FE642A7DE1130093B7B8 /* JHViewProtocols.swift in Sources */,
 				F8D0FE2A2A7641030093B7B8 /* NavigationRouters.swift in Sources */,
-				F8D0FE502A7B69C90093B7B8 /* JHMeTableView.swift in Sources */,
+				F8D0FE502A7B69C90093B7B8 /* JHHomeTableView.swift in Sources */,
+				F8D0FE8D2A7FD5760093B7B8 /* JHHomeDetailEntity.swift in Sources */,
+				F8D0FE782A7F13700093B7B8 /* JHChannelModel.swift in Sources */,
 				F8D0FE602A7DE1000093B7B8 /* JHPresenterProtocols.swift in Sources */,
+				F8D0FE7C2A7F207A0093B7B8 /* MyError.swift in Sources */,
+				F8D0FE852A7FD5540093B7B8 /* JHHomeDetailPresenter.swift in Sources */,
 				F8D0FE702A7DEE1B0093B7B8 /* JHEntity.swift in Sources */,
 				F8D0FE1F2A763A5C0093B7B8 /* JHMeNavigationViewController.swift in Sources */,
 				F8D0FDE32A7633C60093B7B8 /* myViper.xcdatamodeld in Sources */,
 				F8D0FE162A763A0B0093B7B8 /* JHHomeNavigationViewController.swift in Sources */,
-				F8D0FE4B2A76A8690093B7B8 /* myViperNetProvider.swift in Sources */,
+				F8D0FE4B2A76A8690093B7B8 /* MyViperNetProvider.swift in Sources */,
 				F8D0FE582A7DDFE00093B7B8 /* JHEntityProtocols.swift in Sources */,
 				F8D0FE5C2A7DE0B00093B7B8 /* JHInteractorProtocols.swift in Sources */,
+				F8D0FE892A7FD5640093B7B8 /* JHHomeDetailInteractor.swift in Sources */,
 				F8D0FDD92A7633C60093B7B8 /* AppDelegate.swift in Sources */,
 				F8D0FE352A7647BE0093B7B8 /* JHHomeViewController.swift in Sources */,
+				F8D0FE912A7FD58F0093B7B8 /* JHHomeDetailRouter.swift in Sources */,
 				F8D0FE122A7639C40093B7B8 /* JHTabBarController.swift in Sources */,
+				F8D0FE962A7FD9050093B7B8 /* HomeDetailProtocols.swift in Sources */,
+				F8D0FE812A7FD52F0093B7B8 /* JHHomeDetailViewController.swift in Sources */,
 				F8D0FE6C2A7DED4C0093B7B8 /* JHInteractors.swift in Sources */,
 				F8D0FE1A2A763A3F0093B7B8 /* JHFindNavigationViewController.swift in Sources */,
 				F8D0FE682A7DEA6E0093B7B8 /* JHPresenters.swift in Sources */,
+				F8D0FEA02A7FDD0A0093B7B8 /* JHHomeDetailView.swift in Sources */,
 				F8D0FE3D2A7647DE0093B7B8 /* JHMeViewController.swift in Sources */,
 				F8D0FE252A763B350093B7B8 /* JHRouterProtocols.swift in Sources */,
 				F8D0FE392A7647CF0093B7B8 /* JHFindViewController.swift in Sources */,
@@ -684,24 +762,33 @@
 			files = (
 				F8D0FE202A763A5C0093B7B8 /* JHMeNavigationViewController.swift in Sources */,
 				F8D0FE592A7DDFE00093B7B8 /* JHEntityProtocols.swift in Sources */,
-				F8D0FE512A7B69C90093B7B8 /* JHMeTableView.swift in Sources */,
+				F8D0FE512A7B69C90093B7B8 /* JHHomeTableView.swift in Sources */,
 				F8D0FE612A7DE1000093B7B8 /* JHPresenterProtocols.swift in Sources */,
 				F8D0FDF32A7633C70093B7B8 /* myViperTests.swift in Sources */,
+				F8D0FEA12A7FDD0A0093B7B8 /* JHHomeDetailView.swift in Sources */,
 				F8D0FE1B2A763A3F0093B7B8 /* JHFindNavigationViewController.swift in Sources */,
+				F8D0FE972A7FD9050093B7B8 /* HomeDetailProtocols.swift in Sources */,
+				F8D0FE8A2A7FD5640093B7B8 /* JHHomeDetailInteractor.swift in Sources */,
+				F8D0FE7D2A7F207A0093B7B8 /* MyError.swift in Sources */,
+				F8D0FE922A7FD58F0093B7B8 /* JHHomeDetailRouter.swift in Sources */,
 				F8D0FE172A763A0B0093B7B8 /* JHHomeNavigationViewController.swift in Sources */,
 				F8D0FE692A7DEA6E0093B7B8 /* JHPresenters.swift in Sources */,
 				F8D0FE132A7639C40093B7B8 /* JHTabBarController.swift in Sources */,
 				F8D0FE5D2A7DE0B00093B7B8 /* JHInteractorProtocols.swift in Sources */,
 				F8D0FE262A763B350093B7B8 /* JHRouterProtocols.swift in Sources */,
-				F8D0FE4C2A76A8690093B7B8 /* myViperNetProvider.swift in Sources */,
+				F8D0FE4C2A76A8690093B7B8 /* MyViperNetProvider.swift in Sources */,
 				F8D0FE6D2A7DED4C0093B7B8 /* JHInteractors.swift in Sources */,
 				F8D0FE752A7E4A240093B7B8 /* PrintTool.swift in Sources */,
 				F8D0FE3E2A7647DE0093B7B8 /* JHMeViewController.swift in Sources */,
 				F8D0FE2B2A7641030093B7B8 /* NavigationRouters.swift in Sources */,
 				F8D0FE712A7DEE1B0093B7B8 /* JHEntity.swift in Sources */,
+				F8D0FE792A7F13700093B7B8 /* JHChannelModel.swift in Sources */,
 				F8D0FE652A7DE1130093B7B8 /* JHViewProtocols.swift in Sources */,
+				F8D0FE862A7FD5540093B7B8 /* JHHomeDetailPresenter.swift in Sources */,
 				F8D0FE362A7647BE0093B7B8 /* JHHomeViewController.swift in Sources */,
 				F8D0FE3A2A7647CF0093B7B8 /* JHFindViewController.swift in Sources */,
+				F8D0FE8E2A7FD5760093B7B8 /* JHHomeDetailEntity.swift in Sources */,
+				F8D0FE822A7FD52F0093B7B8 /* JHHomeDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,21 +798,30 @@
 			files = (
 				F8D0FE662A7DE1130093B7B8 /* JHViewProtocols.swift in Sources */,
 				F8D0FE142A7639C40093B7B8 /* JHTabBarController.swift in Sources */,
-				F8D0FE522A7B69C90093B7B8 /* JHMeTableView.swift in Sources */,
+				F8D0FE522A7B69C90093B7B8 /* JHHomeTableView.swift in Sources */,
+				F8D0FE8F2A7FD5760093B7B8 /* JHHomeDetailEntity.swift in Sources */,
+				F8D0FE7A2A7F13700093B7B8 /* JHChannelModel.swift in Sources */,
 				F8D0FE622A7DE1000093B7B8 /* JHPresenterProtocols.swift in Sources */,
+				F8D0FE7E2A7F207A0093B7B8 /* MyError.swift in Sources */,
+				F8D0FE872A7FD5540093B7B8 /* JHHomeDetailPresenter.swift in Sources */,
 				F8D0FE722A7DEE1B0093B7B8 /* JHEntity.swift in Sources */,
 				F8D0FE1C2A763A3F0093B7B8 /* JHFindNavigationViewController.swift in Sources */,
 				F8D0FE212A763A5C0093B7B8 /* JHMeNavigationViewController.swift in Sources */,
 				F8D0FE372A7647BE0093B7B8 /* JHHomeViewController.swift in Sources */,
-				F8D0FE4D2A76A8690093B7B8 /* myViperNetProvider.swift in Sources */,
+				F8D0FE4D2A76A8690093B7B8 /* MyViperNetProvider.swift in Sources */,
 				F8D0FE5A2A7DDFE00093B7B8 /* JHEntityProtocols.swift in Sources */,
 				F8D0FE5E2A7DE0B00093B7B8 /* JHInteractorProtocols.swift in Sources */,
+				F8D0FE8B2A7FD5640093B7B8 /* JHHomeDetailInteractor.swift in Sources */,
 				F8D0FE182A763A0B0093B7B8 /* JHHomeNavigationViewController.swift in Sources */,
 				F8D0FE3F2A7647DE0093B7B8 /* JHMeViewController.swift in Sources */,
+				F8D0FE932A7FD58F0093B7B8 /* JHHomeDetailRouter.swift in Sources */,
 				F8D0FE3B2A7647CF0093B7B8 /* JHFindViewController.swift in Sources */,
+				F8D0FE982A7FD9050093B7B8 /* HomeDetailProtocols.swift in Sources */,
+				F8D0FE832A7FD52F0093B7B8 /* JHHomeDetailViewController.swift in Sources */,
 				F8D0FE6E2A7DED4C0093B7B8 /* JHInteractors.swift in Sources */,
 				F8D0FDFD2A7633C70093B7B8 /* myViperUITests.swift in Sources */,
 				F8D0FE6A2A7DEA6E0093B7B8 /* JHPresenters.swift in Sources */,
+				F8D0FEA22A7FDD0A0093B7B8 /* JHHomeDetailView.swift in Sources */,
 				F8D0FE272A763B350093B7B8 /* JHRouterProtocols.swift in Sources */,
 				F8D0FE2C2A7641030093B7B8 /* NavigationRouters.swift in Sources */,
 				F8D0FDFF2A7633C70093B7B8 /* myViperUITestsLaunchTests.swift in Sources */,
@@ -890,6 +986,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -919,6 +1016,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -942,7 +1040,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5A3W3WXGJR;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cjh.testDemo.myViperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -963,7 +1061,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5A3W3WXGJR;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cjh.testDemo.myViperTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -983,6 +1081,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5A3W3WXGJR;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cjh.testDemo.myViperUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1002,6 +1101,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5A3W3WXGJR;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cjh.testDemo.myViperUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

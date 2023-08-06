@@ -12,7 +12,7 @@ protocol JHRouterProtocols: AnyObject {
     
     static func createTabBarVC() -> UITabBarController
     
-    func pushToNextVC(from previousView: UIView, forModel model: Any)
+    func pushToNextVC(from previousView: UIViewController, forModel model: Any)
     
-    func addChildViewController(nav: UINavigationController, vc: UIViewController & JHViewProtocols)
+    func createRootViewController(vc: UIViewController & JHViewProtocols) -> UIViewController & JHViewProtocols
 }

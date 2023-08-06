@@ -6,35 +6,47 @@
 //
 
 import UIKit
+import PKHUD
 
 class JHHomeViewController: UIViewController {
     var presenter: JHPresenterProtocols?
-    
+    var tableView: JHHomeTableView?
     override func viewDidLoad() {
         super.viewDidLoad()
-        printTest("【调用顺序】step1: viewDidLoad")
+        self.tableView = JHHomeTableView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
+        view.addSubview(self.tableView!)
         presenter?.viewDidLoad()
         view.backgroundColor = .white
+        block()
     }
     
+    func block() {
+        self.tableView?.didClickCellHandler = { model in
+            self.presenter?.router?.pushToNextVC(from: self, forModel: model)
+        }
+    }
 }
 
 extension JHHomeViewController: JHViewProtocols {
     
     func reloadView() {
-        let presenter = presenter as? JHPresenters
-        printTest("【调用顺序】step10: view执行数据回调, 刷新UI \(presenter?.result)")
+        if let presenter = presenter as? JHPresenters,
+           let data = presenter.result as? JHChannelModelArray {
+            tableView?.setData(data: data)
+        }
     }
     
     func showLoading() {
-        printTest("【调用顺序】step2: showLoading")
+        PKHUD.sharedHUD.show(onView: view)
     }
     
     func showError() {
-        printTest("---showError")
+        HUD.flash(.labeledError(title: "请求失败", subtitle: "网络错误，请求检查网络"), delay: 2)
     }
     
     func hideLoading() {
-        printTest("---hideLoading")
+        PKHUD.sharedHUD.hide(true)
     }
+    
+    
 }

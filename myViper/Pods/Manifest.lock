@@ -5,22 +5,30 @@ PODS:
   - Moya/Core (13.0.1):
     - Alamofire (~> 4.1)
     - Result (~> 4.1)
+  - PKHUD (5.3.0)
   - Result (4.1.0)
+  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
   - Moya
+  - PKHUD
+  - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - Moya
+    - PKHUD
     - Result
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: af38af0ce0cc96e074f624585aa85026c70e954d
+PODFILE CHECKSUM: 04f3826c24e4744f361e0cb6f26add88b60e42db
 
 COCOAPODS: 1.11.3

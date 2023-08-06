@@ -12,10 +12,6 @@ class JHHomeNavigationViewController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let home = JHHomeViewController()
-//        self.addChild(home)
-        let router = NavigationRouters()
-        router.addChildViewController(nav: self, vc: home)
     }
 
 }

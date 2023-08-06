@@ -41,4 +41,5 @@ protocol JHPresenterProtocols: AnyObject {
     var interactor: JHInteractorProtocols? { get set }
     // 下游回调方法
     func didInteractorRetrieveData(data: Any)
+    func didInteractorReceiveError(error: MyError)
 }

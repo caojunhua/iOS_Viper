@@ -13,7 +13,8 @@ class NavigationRouters: JHRouterProtocols {
     static func createTabBarVC() -> UITabBarController {
         let tabBarVC = JHTabBarController()
         
-        let homeVC = JHHomeNavigationViewController()
+        let homeRootVC = NavigationRouters().createRootViewController(vc: JHHomeViewController())
+        let homeVC = JHHomeNavigationViewController(rootViewController: homeRootVC)
         let findVC = JHFindNavigationViewController()
         let meVC = JHMeNavigationViewController()
         
@@ -36,13 +37,14 @@ class NavigationRouters: JHRouterProtocols {
         return tabBarVC
     }
     
-    func pushToNextVC(from previousView: UIView, forModel model: Any) {
-        printTest("a")
+    func pushToNextVC(from previousView: UIViewController, forModel model: Any) {
+        let nextView = JHHomeDetailViewController()
+        
+        previousView.navigationController?.pushViewController(nextView, animated: true)
+        
     }
     
-    func addChildViewController(nav: UINavigationController,
-                                vc: UIViewController & JHViewProtocols) {
-        nav.addChild(vc)
+    func createRootViewController(vc: UIViewController & JHViewProtocols) -> UIViewController & JHViewProtocols {
         
         // 1. view 和 presenter 互相持有 （注意，一个强引用，一个弱引用）
         let presenter = JHPresenters()
@@ -61,5 +63,7 @@ class NavigationRouters: JHRouterProtocols {
         let entity = JHEntity()
         interactor.entity = entity
         entity.interactor = interactor
+        
+        return vc
     }
 }

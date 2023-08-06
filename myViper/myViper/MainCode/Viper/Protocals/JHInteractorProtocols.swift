@@ -34,4 +34,5 @@ protocol JHInteractorProtocols: AnyObject {
     var entity: JHEntityProtocols? { get set }
     // 下游回调方法 <收到数据回调>
     func didEntityReceiveData(data: Any)
+    func didEntityReceiveError(error: MyError)
 }

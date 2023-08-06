@@ -20,4 +20,6 @@ protocol JHEntityProtocols: AnyObject {
     
     // 收到数据
     func didReceiveData(data: Any)
+    
+    func didReceiveError(error: MyError)
 }
